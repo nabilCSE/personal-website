@@ -1,0 +1,81 @@
+/*header section style css*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.first_section{
+    background: url(images/header-bg.png);
+    height: 100vh;
+}
+.first_section div{
+    width: 35%;
+    float: left;
+    margin: 7%;
+}
+.header_section{
+    position: relative;
+    left: 0px;
+    top: 20vh;
+}
+.highlight{
+    color: #EC4C7A;
+    width: 700px;
+    font-size: 52px;
+}
+.header_section p{
+    text-align: justify;
+    line-height: 26px;
+}
+.highlight{
+    color: ;
+}
+.button{
+    text-decoration: none;
+    color: #ffffff;
+    background-image: linear-gradient(18deg,#EC4F8F, #EC4C77 );
+    margin-top: 40px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.image img{
+    height: 75vh;
+}
+/*dream section css */
+.dream_section{
+    background: url(images/biography-bg.png);
+    height: 100vh;
+}
+.dream_section div{
+    width: 35%;
+    float: left;
+    margin: 7%;
+}
+.dream_section h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.dream_section .button{
+    width: 170px;
+}
+/*my work section */
+.my_work{
+    background: url(images/latest-work-bg.png);
+    height: 100vh;
+}
+.my_work div h1{
+    text-align: center;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 30%
+  }
+  .column img{
+      width: 300px;
+      height: 300px;
+  }
+  
